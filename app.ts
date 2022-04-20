@@ -51,7 +51,7 @@ const main = async () => {
 
   // And another one
   await app.service('messages').create({
-    text: 'Hello again',
+    text: 'Hello ',
   });
 
   // Find all existing messages
